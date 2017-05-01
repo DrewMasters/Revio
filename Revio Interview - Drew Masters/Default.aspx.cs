@@ -50,14 +50,17 @@ public partial class _Default : System.Web.UI.Page
     {
         clear_page();
         string u, month, day, year;
-        int j, k, l, m;
+
+        //get user input
         city = TextBox1.Text;
         state = TextBox2.Text;
         city = city.Replace(" ", "_");
 
+        //construct api from user input
         u = apicall + state + "/" + city + ".json";
 
         HttpClient client = new HttpClient(new HttpClientHandler());
+        //make API call
         HttpResponseMessage response = client.GetAsync(u).Result;
 
         if (response.IsSuccessStatusCode)
@@ -66,6 +69,9 @@ public partial class _Default : System.Web.UI.Page
 
             try
             {
+                //if api call was successful than get information 
+                //from the returned JSON object
+                //otherwise indicate in catch statement that there is a problem with user input
                 forecast = weather["forecast"].Value<JObject>();
 
                 simpleforecast = forecast["simpleforecast"].Value<JObject>();
@@ -143,9 +149,7 @@ public partial class _Default : System.Web.UI.Page
         }
         else
         {
-            Label1.Text = "ERROR";
-            Label2.Text = "ERROR";
-            Label3.Text = "ERROR";
+            Label13.Text = "HTTP ERROR";
         }
     }
 
