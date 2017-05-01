@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Revio Interview - Drew Masters", "..\..\WebSites\Revio Interview - Drew Masters\", "{DDC8A52C-C98D-4175-B79A-D98D75621CB1}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Revio Interview - Drew Masters", ".\Revio Interview - Drew Masters\", "{DDC8A52C-C98D-4175-B79A-D98D75621CB1}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51545"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Revio Interview - Drew Masters\"
+		Debug.AspNetCompiler.PhysicalPath = ".\Revio Interview - Drew Masters\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51545\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_51545"
-		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Revio Interview - Drew Masters\"
+		Release.AspNetCompiler.PhysicalPath = ".\Revio Interview - Drew Masters\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51545\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "51545"
-		SlnRelativePath = "..\..\WebSites\Revio Interview - Drew Masters\"
+		SlnRelativePath = ".\Revio Interview - Drew Masters\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
